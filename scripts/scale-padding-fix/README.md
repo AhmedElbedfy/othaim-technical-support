@@ -1,0 +1,26 @@
+# scale-padding-fix.js
+
+This script reads the file "scale.txt" and outputs the data in a format that is easier to parse.
+
+## Usage
+
+To run the script, you can use the following command:
+
+```
+node scale-padding-fix.js
+```
+
+This will create a new file called "output.txt" that contains the output of the script.
+
+| Feature                                    | Description                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                                       | scale-padding-fix.js                                                                                                                                                                                                                                                                                                                                                    |
+| Purpose                                    | Reads the file "scale.txt" and outputs the data in a format that is easier to parse.                                                                                                                                                                                                                                                                                    |
+| Usage                                      | `node scale-padding-fix.js`                                                                                                                                                                                                                                                                                                                                             |
+| Output                                     | Creates a new file called "output.txt" that contains the output of the script.                                                                                                                                                                                                                                                                                          |
+| Prerequisites                              | Node.js                                                                                                                                                                                                                                                                                                                                                                 |
+| How to check if you have Node.js installed | `node -v`                                                                                                                                                                                                                                                                                                                                                               |
+| How to install Node.js                     | https://nodejs.org/en/download/                                                                                                                                                                                                                                                                                                                                         |
+| How it works                               | The script first reads the contents of the file "scale.txt" and stores them in an array of strings. Then, it calculates the length of the longest number sequence in the file. Finally, it iterates over the lines in the file and pads the number sequences with zeros so that they are all the same length. The padded number sequences are then added to the output. |
+| Author                                     | Ahmed Khaled, Othaim IT Technical Support                                                                                                                                                                                                                                                                                                                               |
+| Made with                                  | ❤️ and JavaScript                                                                                                                                                                                                                                                                                                                                                       |
