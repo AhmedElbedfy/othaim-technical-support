@@ -55,7 +55,7 @@ for (const line of lines) {
 }
 
 // Create a new file and write the output to the file.
-const newFile = fs.createWriteStream("output.txt");
+const newFile = fs.createWriteStream("scale.txt");
 newFile.write(output);
 newFile.close();
 
